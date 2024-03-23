@@ -5,9 +5,11 @@ Elegí un algoritmo greedy para resolver este problema por que es un enfoque dir
 Los invitados se representan como nodos en un gráfico, donde las relaciones amistosas entre ellos se reflejan en los pesos que conectan estos nodos cada peso representa el valor de la relación amistosa entre dos invitados y apartir de eso siendo este un problema de optimizacion pues subdividiamos a los invitados dependiendo su peso y asi podiamos encontrar sus grupos la relacion mas fuerte y la mas debil
 
 ### Identify the time complexity of your solution.
-####Clases Edge y Node:
+
+##Clases Edge y Node:
 Métodos principalmente de acceso y comparación. Complejidad: O(1)
-####Clases Directed y Undirected:
+
+##Clases Directed y Undirected:
 removeNode: O(S + K)
 addEdge: O(1)
 removeEdge: O(K)
