@@ -5,11 +5,9 @@ Elegí un algoritmo greedy para resolver este problema por que es un enfoque dir
 Los invitados se representan como nodos en un gráfico, donde las relaciones amistosas entre ellos se reflejan en los pesos que conectan estos nodos cada peso representa el valor de la relación amistosa entre dos invitados y apartir de eso siendo este un problema de optimizacion pues subdividiamos a los invitados dependiendo su peso y asi podiamos encontrar sus grupos la relacion mas fuerte y la mas debil
 
 ### Identify the time complexity of your solution.
-
-##Clases Edge y Node:
+####Clases Edge y Node:
 Métodos principalmente de acceso y comparación. Complejidad: O(1)
-
-##Clases Directed y Undirected:
+####Clases Directed y Undirected:
 removeNode: O(S + K)
 addEdge: O(1)
 removeEdge: O(K)
@@ -39,6 +37,7 @@ findGroups: O(S * (S + K))
 La complejidad del proyecto depende del tamaño del grafo de entrada (S: número de nodos, K: número de bordes) la complejidad total sería  la complejidad dominante,que es O(K log S) debido al algoritmo de Kruskal.
 
 ###Evidencias de los Resultados 
+
 ####Ejemplo 1:
 
 ![imagen](https://github.com/SebasthianSalpozz/Algoritmia2/assets/90279053/471c75b7-b7f5-4db9-8924-4217533b2484)
@@ -60,3 +59,4 @@ La complejidad del proyecto depende del tamaño del grafo de entrada (S: número
 ####Ejemplo 3
 
 ![imagen](https://github.com/SebasthianSalpozz/Algoritmia2/assets/90279053/58c70a4e-4896-4806-948f-0578110945cf)
+
