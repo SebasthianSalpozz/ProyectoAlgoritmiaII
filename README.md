@@ -38,15 +38,23 @@ La complejidad del proyecto depende del tamaño del grafo de entrada (S: número
 
 ###Evidencias de los Resultados 
 ####Ejemplo 1:
+
 ![imagen](https://github.com/SebasthianSalpozz/Algoritmia2/assets/90279053/471c75b7-b7f5-4db9-8924-4217533b2484)
+
 ####Ejemplo 2 
+
 #####Caso 1
+
 ![Captura desde 2024-03-23 14-09-02](https://github.com/SebasthianSalpozz/Algoritmia2/assets/90279053/e4ea3cc0-d51c-4be6-9b10-7d17605c72ea)
+
 #####Caso 2
+
 ![imagen](https://github.com/SebasthianSalpozz/Algoritmia2/assets/90279053/9165ead0-11e9-40ae-b068-3c76541ddf3c)
 
 #####Caso 3
+
 ![imagen](https://github.com/SebasthianSalpozz/Algoritmia2/assets/90279053/f19956e3-e387-4ba1-87dd-d7018659b6fa)
 
 ####Ejemplo 3
+
 ![imagen](https://github.com/SebasthianSalpozz/Algoritmia2/assets/90279053/58c70a4e-4896-4806-948f-0578110945cf)
