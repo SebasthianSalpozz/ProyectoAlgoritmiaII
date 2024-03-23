@@ -8,25 +8,23 @@ import proyectoalgoritmiaii.Operations.Operations;
 public class Audie {
     public static void main(String[] args) {
         System.out.println("Example 1: ");
-        Operations operationsEx1 = new Operations("app/docs/example-1.txt", 7,2 );
+        Operations operationsEx1 = new Operations("app/src/main/resources/example-1.txt", 7,2 );
         System.out.println(operationsEx1.toString());
 
         System.out.println("Example 2: ");
         System.out.println("Case 1: ");
-        Operations operationsEx2 = new Operations("app/docs/example-2.txt", 10,4 );
+        Operations operationsEx2 = new Operations("app/src/main/resources/example-2.txt", 10,4 );
         System.out.println(operationsEx2.toString());
         System.out.println("Case 2: ");
-        Operations operationsExC2 = new Operations("app/docs/example-2.txt", 10,3 );
+        Operations operationsExC2 = new Operations("app/src/main/resources/example-2.txt", 10,3 );
         System.out.println(operationsExC2.toString());
         System.out.println("Case 3: ");
-        Operations operationsEx2C3 = new Operations("app/docs/example-2.txt", 14,3 );
+        Operations operationsEx2C3 = new Operations("app/src/main/resources/example-2.txt", 14,3 );
         System.out.println(operationsEx2C3.toString());
 
         System.out.println("Example 3: ");
         System.out.println("Case 1: ");
-        Operations operationsEx3 = new Operations("app/docs/example-3.txt", 14,4 );
+        Operations operationsEx3 = new Operations("app/src/main/resources/example-3.txt", 14,4 );
         System.out.println(operationsEx3.toString());
-
-
     }
 }
